@@ -21,3 +21,13 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Minecraft Folders
+/logs/
+/resourcepacks/
+/saves/
+/server-resource-packs/
+
+# Minecraft Files
+Minecraft.exe
+realms_persistence.json
