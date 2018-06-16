@@ -36,4 +36,5 @@ usernamecache.json
 
 # Mod Files
 /config/splash.properties
+/assets/
 BotaniaVars.dat
