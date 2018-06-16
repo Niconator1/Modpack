@@ -33,3 +33,7 @@ realms_persistence.json
 options.txt
 usercache.json
 usernamecache.json
+
+# Mod Files
+/config/splash.properties
+BotaniaVars.dat
