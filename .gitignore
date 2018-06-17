@@ -26,6 +26,7 @@ hs_err_pid*
 /resourcepacks/
 /saves/
 /server-resource-packs/
+/crash-reports/
 
 # Minecraft Files
 Minecraft.exe
