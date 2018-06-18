@@ -38,4 +38,6 @@ usernamecache.json
 # Mod Files
 /config/splash.properties
 /assets/
+/journeymap/
 BotaniaVars.dat
+crafttweaker.log
