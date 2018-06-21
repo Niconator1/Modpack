@@ -1,0 +1,44 @@
+print("Initializing 'horsepower.zs'...");
+
+mods.horsepower.Grindstone.add(<thermalfoundation:material>, <mekanism:dirtydust>, 30, false);
+
+mods.horsepower.ChoppingBlock.add(<minecraft:planks> * 2, <minecraft:log>,1,false);
+mods.horsepower.ChoppingBlock.add(<minecraft:planks:4> * 2, <minecraft:log2>,1,false);
+mods.horsepower.ChoppingBlock.add(<minecraft:planks:5> * 2, <minecraft:log2:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<minecraft:planks:3> * 2, <minecraft:log:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<minecraft:planks:2> * 2, <minecraft:log:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<minecraft:planks:1> * 2, <minecraft:log:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:0> * 2, <forestry:logs.0:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:1> * 2, <forestry:logs.0:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:2> * 2, <forestry:logs.0:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:3> * 2, <forestry:logs.0:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:4> * 2, <forestry:logs.1:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:5> * 2, <forestry:logs.1:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:6> * 2, <forestry:logs.1:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:7> * 2, <forestry:logs.1:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:8> * 2, <forestry:logs.2:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:9> * 2, <forestry:logs.2:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:10> * 2, <forestry:logs.2:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:11> * 2, <forestry:logs.2:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:12> * 2, <forestry:logs.3:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:13> * 2, <forestry:logs.3:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:14> * 2, <forestry:logs.3:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.0:15> * 2, <forestry:logs.3:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:0> * 2, <forestry:logs.4:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:1> * 2, <forestry:logs.4:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:2> * 2, <forestry:logs.4:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:3> * 2, <forestry:logs.4:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:4> * 2, <forestry:logs.5:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:5> * 2, <forestry:logs.5:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:6> * 2, <forestry:logs.5:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:7> * 2, <forestry:logs.5:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:8> * 2, <forestry:logs.6:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:9> * 2, <forestry:logs.6:1>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:10> * 2, <forestry:logs.6:2>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:11> * 2, <forestry:logs.6:3>,1,false);
+mods.horsepower.ChoppingBlock.add(<forestry:planks.1:12> * 2, <forestry:logs.7:0>,1,false);
+mods.horsepower.ChoppingBlock.add(<thaumcraft:plank_greatwood> * 2, <thaumcraft:log_greatwood>,1,false);
+mods.horsepower.ChoppingBlock.add(<thaumcraft:plank_silverwood> * 2, <thaumcraft:log_silverwood>,1,false);
+mods.horsepower.ChoppingBlock.add(<evilcraft:undead_plank> * 2, <evilcraft:undead_log>,1,false);
+
+print("Initialized 'horsepower.zs'");
