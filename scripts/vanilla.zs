@@ -1,26 +1,31 @@
 print("Initializing 'vanills.zs'...");
 
 #vanilla tools
-recipes.remove(<minecraft:iron_shovel>);
-recipes.remove(<minecraft:iron_pickaxe>);
-recipes.remove(<minecraft:iron_axe>);
-recipes.remove(<minecraft:iron_sword>);
-recipes.remove(<minecraft:stone_sword>);
-recipes.remove(<minecraft:stone_shovel>);
-recipes.remove(<minecraft:stone_pickaxe>);
-recipes.remove(<minecraft:stone_axe>);
-recipes.remove(<minecraft:diamond_sword>);
-recipes.remove(<minecraft:diamond_shovel>);
-recipes.remove(<minecraft:diamond_pickaxe>);
-recipes.remove(<minecraft:diamond_axe>);
-recipes.remove(<minecraft:golden_sword>);
-recipes.remove(<minecraft:golden_shovel>);
-recipes.remove(<minecraft:golden_pickaxe>);
-recipes.remove(<minecraft:golden_axe>);
-recipes.remove(<minecraft:stone_hoe>);
-recipes.remove(<minecraft:iron_hoe>);
-recipes.remove(<minecraft:diamond_hoe>);
-recipes.remove(<minecraft:golden_hoe>);
+<minecraft:wooden_pickaxe>.maxDamage = 1;
+<minecraft:wooden_axe>.maxDamage = 1;
+<minecraft:wooden_shovel>.maxDamage = 1;
+<minecraft:wooden_sword>.maxDamage = 1;
+<minecraft:wooden_hoe>.maxDamage = 1;
+<minecraft:stone_pickaxe>.maxDamage = 1;
+<minecraft:stone_axe>.maxDamage = 1;
+<minecraft:stone_shovel>.maxDamage = 1;
+<minecraft:stone_sword>.maxDamage = 1;
+<minecraft:stone_hoe>.maxDamage = 1;
+<minecraft:iron_pickaxe>.maxDamage = 1;
+<minecraft:iron_axe>.maxDamage = 1;
+<minecraft:iron_shovel>.maxDamage = 1;
+<minecraft:iron_sword>.maxDamage = 1;
+<minecraft:iron_hoe>.maxDamage = 1;
+<minecraft:golden_pickaxe>.maxDamage = 1;
+<minecraft:golden_axe>.maxDamage = 1;
+<minecraft:golden_shovel>.maxDamage = 1;
+<minecraft:golden_sword>.maxDamage = 1;
+<minecraft:golden_hoe>.maxDamage = 1;
+<minecraft:diamond_pickaxe>.maxDamage = 1;
+<minecraft:diamond_axe>.maxDamage = 1;
+<minecraft:diamond_shovel>.maxDamage = 1;
+<minecraft:diamond_sword>.maxDamage = 1;
+<minecraft:diamond_hoe>.maxDamage = 1;
 
 #wood changes
 recipes.remove(<minecraft:stick>);
