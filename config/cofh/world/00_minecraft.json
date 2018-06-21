@@ -201,6 +201,7 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
+                    0,
 					1
 				]
 			}
@@ -243,6 +244,7 @@
 				"restriction": "blacklist",
 				"value": [
 					-1,
+                    0,
 					1
 				]
 			}
