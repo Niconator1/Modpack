@@ -49,12 +49,12 @@ mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:295>);
 
 recipes.remove(<thermalexpansion:machine:0>);
 recipes.addShaped(<thermalexpansion:machine:0>, [[null, <nuclearcraft:nuclear_furnace_idle>, null], 
-[<extrautils2:machine>, <thermalexpansion:frame>, <actuallyadditions:block_furnace_double>], 
+[<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), <thermalexpansion:frame>, <actuallyadditions:block_furnace_double>], 
 [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
 recipes.remove(<thermalexpansion:machine:1>);
 recipes.addShaped(<thermalexpansion:machine:1>, [[null, <appliedenergistics2:grindstone>, null],
-[<extrautils2:machine>, <thermalexpansion:frame>, <actuallyadditions:block_grinder>],
+[<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), <thermalexpansion:frame>, <actuallyadditions:block_grinder>],
 [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
 print("Initialized 'thermalexpansion.zs'");
