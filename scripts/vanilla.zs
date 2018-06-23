@@ -1,6 +1,7 @@
 print("Initializing 'vanills.zs'...");
 
 #vanilla tools
+recipes.remove(<minecraft:wooden_pickaxe>);
 <minecraft:wooden_pickaxe>.maxDamage = 1;
 <minecraft:wooden_pickaxe>.addTooltip(format.red("NUR ZUM CRAFTEN"));
 <minecraft:wooden_axe>.maxDamage = 1;
@@ -51,6 +52,12 @@ print("Initializing 'vanills.zs'...");
 <minecraft:diamond_sword>.addTooltip(format.red("NUR ZUM CRAFTEN"));
 <minecraft:diamond_hoe>.maxDamage = 1;
 <minecraft:diamond_hoe>.addTooltip(format.red("NUR ZUM CRAFTEN"));
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:wooden_pickaxe>, [
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>], 
+	[null, <ore:stickWood>, null], 
+	[null, <ore:stickWood>, null]
+]);
 
 #wood changes
 recipes.remove(<minecraft:stick>);
