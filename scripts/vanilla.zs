@@ -2,7 +2,6 @@ print("Initializing 'vanills.zs'...");
 
 #vanilla tools
 <minecraft:wooden_pickaxe>.maxDamage = 1;
-<minecraft:wooden_pickaxe>.canEditBlocks=false;
 <minecraft:wooden_pickaxe>.addTooltip(format.red("NUR ZUM CRAFTEN"));
 <minecraft:wooden_axe>.maxDamage = 1;
 <minecraft:wooden_axe>.addTooltip(format.red("NUR ZUM CRAFTEN"));
