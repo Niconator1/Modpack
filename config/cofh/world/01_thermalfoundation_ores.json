@@ -121,6 +121,33 @@
 				]
 			}
 		},
+        "aluminium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": [
+					{
+						"name": "thermalfoundation:ore",
+						"properties": {
+							"type": "aluminium"
+						},
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 4
+			},
+			"cluster-count": 2,
+			"min-height": 10,
+			"max-height": 35,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
 		"nickel": {
 			"distribution": "uniform",
 			"generator": {
