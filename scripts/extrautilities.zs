@@ -9,4 +9,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:teleporter:1>, [
 	[<ore:oreThorium>, <ore:gemDark>, <ore:oreCinnabar>, <ore:itemSilicon>, <ore:oreUranium>]
 ]);
 
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
+mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), true);
+
 print("Initialized 'extrautilities.zs'");

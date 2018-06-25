@@ -2,10 +2,10 @@ print("Initializing 'thermalexpansion.zs'...");
 
 recipes.remove(<thermalexpansion:frame>);
 
-mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame>, 10000, <forestry:sturdy_machine>, 
+mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame>, 100000, <forestry:sturdy_machine>, 
 [<actuallyadditions:item_crystal_empowered:5>, <appliedenergistics2:material:45>, <actuallyadditions:item_crystal_empowered:5>,
-<appliedenergistics2:material:45>, <appliedenergistics2:material:45>,<actuallyadditions:item_crystal_empowered:5>,
-<appliedenergistics2:material:45>, <actuallyadditions:item_crystal_empowered:5>]);
+<appliedenergistics2:material:45>, <actuallyadditions:item_crystal_empowered:5>,<appliedenergistics2:material:45>,
+<actuallyadditions:item_crystal_empowered:5>, <appliedenergistics2:material:45>]);
 
 recipes.remove(<thermalfoundation:material:24>);
 recipes.remove(<thermalfoundation:material:25>);
@@ -48,13 +48,13 @@ mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:263>);
 mods.tconstruct.Casting.removeTableRecipe(<thermalfoundation:material:295>);
 
 recipes.remove(<thermalexpansion:machine:0>);
-recipes.addShaped(<thermalexpansion:machine:0>, [[null, <nuclearcraft:nuclear_furnace_idle>, null], 
-[<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), <thermalexpansion:frame>, <actuallyadditions:block_furnace_double>], 
+recipes.addShaped(<thermalexpansion:machine:0>, [[null, <minecraft:furnace>, null], 
+[<nuclearcraft:nuclear_furnace_idle>, <thermalexpansion:frame>, <actuallyadditions:block_furnace_double>], 
 [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
 recipes.remove(<thermalexpansion:machine:1>);
 recipes.addShaped(<thermalexpansion:machine:1>, [[null, <appliedenergistics2:grindstone>, null],
-[<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), <thermalexpansion:frame>, <actuallyadditions:block_grinder>],
+[<nuclearcraft:rock_crusher_idle>, <thermalexpansion:frame>, <actuallyadditions:block_grinder>],
 [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
 print("Initialized 'thermalexpansion.zs'");
