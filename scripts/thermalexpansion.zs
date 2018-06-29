@@ -7,6 +7,25 @@ mods.extendedcrafting.CombinationCrafting.addRecipe(<thermalexpansion:frame>, 10
 <appliedenergistics2:material:45>, <actuallyadditions:item_crystal_empowered:5>,<appliedenergistics2:material:45>,
 <actuallyadditions:item_crystal_empowered:5>, <appliedenergistics2:material:45>]);
 
+recipes.remove(<ore:gearIron>);
+recipes.remove(<ore:gearGold>);
+recipes.remove(<ore:gearCopper>);
+recipes.remove(<ore:gearTin>);
+recipes.remove(<ore:gearSilver>);
+recipes.remove(<ore:gearLead>);
+recipes.remove(<ore:gearAluminium>);
+recipes.remove(<ore:gearEnderium>);
+recipes.remove(<ore:gearLumium>);
+recipes.remove(<ore:gearSignalum>);
+recipes.remove(<ore:gearBronze>);
+recipes.remove(<ore:gearConstantan>);
+recipes.remove(<ore:gearInvar>);
+recipes.remove(<ore:gearElectrum>);
+recipes.remove(<ore:gearNickel>);
+recipes.remove(<ore:gearPlatinum>);
+recipes.remove(<ore:gearIridium>);
+recipes.remove(<ore:gearMithril>);
+recipes.remove(<ore:gearSteel>);
 recipes.remove(<thermalfoundation:material:24>);
 recipes.remove(<thermalfoundation:material:25>);
 recipes.remove(<thermalfoundation:material:256>);
