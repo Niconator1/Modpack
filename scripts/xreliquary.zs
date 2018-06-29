@@ -1,0 +1,1 @@
+mods.jei.JEI.removeAndHide(<xreliquary:ender_staff>);

@@ -5,6 +5,10 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:stone_paxel>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:iron_paxel>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:gold_paxel>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:diamond_paxel>);
+
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_tele_staff>.withTag({Energy: 0}));
+mods.jei.JEI.removeAndHide(<actuallyadditions:item_tele_staff>.withTag({Energy: 250000}));
+
 mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:0>);
 mods.actuallyadditions.Crusher.removeRecipe(<thermalfoundation:material:1>);
 mods.actuallyadditions.Crusher.removeRecipe(<minecraft:coal>);

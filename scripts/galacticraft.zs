@@ -1,0 +1,1 @@
+mods.jei.JEI.removeAndHide(<galacticraftplanets:telepad_short>);
