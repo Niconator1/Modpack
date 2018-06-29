@@ -26,6 +26,9 @@ recipes.remove(<ore:gearPlatinum>);
 recipes.remove(<ore:gearIridium>);
 recipes.remove(<ore:gearMithril>);
 recipes.remove(<ore:gearSteel>);
+
+recipes.remove(<ore:plateSteel>);
+
 recipes.remove(<thermalfoundation:material:24>);
 recipes.remove(<thermalfoundation:material:25>);
 recipes.remove(<thermalfoundation:material:256>);

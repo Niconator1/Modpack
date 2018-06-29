@@ -15,4 +15,19 @@ recipes.addShaped(<nuclearcraft:part:4>, [[<immersiveengineering:material:20>, <
 [<immersiveengineering:material:20>, <immersiveengineering:material:2>, <immersiveengineering:material:20>],
 [<immersiveengineering:material:20>, <immersiveengineering:material:2>, <immersiveengineering:material:20>]]);
 
+recipes.remove(<nuclearcraft:part>);
+recipes.addShaped(<nuclearcraft:part>, [[<nuclearcraft:dust:8>, <thermalfoundation:material:352>, <nuclearcraft:dust:8>],
+[<thermalfoundation:material:352>, <actuallyadditions:item_crystal_empowered:3>, <thermalfoundation:material:352>], 
+[<nuclearcraft:dust:8>, <thermalfoundation:material:352>, <nuclearcraft:dust:8>]]);
+
+recipes.remove(<nuclearcraft:part:1>);
+recipes.addShaped(<nuclearcraft:part:1>, [[<nuclearcraft:alloy:1>, <actuallyadditions:item_crystal_empowered>, <nuclearcraft:alloy:1>],
+[<actuallyadditions:item_crystal_empowered>, <nuclearcraft:part>, <actuallyadditions:item_crystal_empowered>],
+[<nuclearcraft:alloy:1>, <actuallyadditions:item_crystal_empowered>, <nuclearcraft:alloy:1>]]);
+
+recipes.remove(<nuclearcraft:part:2>);
+recipes.addShaped(<nuclearcraft:part:2>, [[<thermalfoundation:material:1024>, <ore:ingotUranium238Base>, <thermalfoundation:material:1024>],
+[<ore:ingotUranium238Base>, <nuclearcraft:part:1>, <ore:ingotUranium238Base>],
+[<thermalfoundation:material:1024>, <ore:ingotUranium238>, <thermalfoundation:material:1024>]]);
+
 print("Initialized 'nuclearcraft.zs'");
