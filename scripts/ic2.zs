@@ -9,4 +9,10 @@ for item in IArray {
         mods.jei.JEI.removeAndHide(item);
     }
 }
+mods.jei.JEI.removeAndHide(<ic2:cf_pack:*>);
+mods.jei.JEI.removeAndHide(<ic2:jetpack:*>);
+mods.jei.JEI.removeAndHide(<ic2:foam_sprayer:*>);
+mods.jei.JEI.removeAndHide(<ic2:fluid_cell:*>);
+mods.jei.JEI.removeAndHide(<ic2:cable:*>);
+
 print("Initialized 'ic2.zs'");
