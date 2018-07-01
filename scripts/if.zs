@@ -1,6 +1,6 @@
 print("Initializing 'if.zs'...");
 val IArray = itemUtils.getItemsByRegexRegistryName("industrialforegoing.*");
 for item in IArray {
-    recipes.remove(item);
+    mods.jei.JEI.removeAndHide(item);
 }
 print("Initialized 'if.zs'");
