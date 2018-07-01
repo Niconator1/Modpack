@@ -30,4 +30,14 @@ recipes.addShaped(<nuclearcraft:part:2>, [[<thermalfoundation:material:1024>, <o
 [<ore:ingotUranium238Base>, <nuclearcraft:part:1>, <ore:ingotUranium238Base>],
 [<thermalfoundation:material:1024>, <ore:ingotUranium238>, <thermalfoundation:material:1024>]]);
 
+recipes.remove(<nuclearcraft:cooler>);
+recipes.addShaped(<nuclearcraft:cooler>, [[<thermalfoundation:material:352>, <thermalfoundation:glass_alloy:6>, <thermalfoundation:material:352>],
+[<thermalfoundation:glass_alloy:6>, null, <thermalfoundation:glass_alloy:6>],
+[<nuclearcraft:alloy:1>, <thermalfoundation:glass_alloy:6>, <nuclearcraft:alloy:1>]]);
+
+recipes.remove(<nuclearcraft:nuclear_furnace_idle>);
+recipes.addShaped(<nuclearcraft:nuclear_furnace_idle>, [[<nuclearcraft:part>, <nuclearcraft:alloy:1>, <nuclearcraft:part>],
+[<nuclearcraft:alloy:1>, <thermalexpansion:frame>, <nuclearcraft:alloy:1>],
+[<nuclearcraft:part>, <forge:bucketfilled>, <nuclearcraft:part>]]);
+
 print("Initialized 'nuclearcraft.zs'");

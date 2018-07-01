@@ -16,6 +16,7 @@ mods.actuallyadditions.Crusher.removeRecipe(<minecraft:redstone>);
 mods.actuallyadditions.Crusher.removeRecipe(<minecraft:dye:4>);
 mods.actuallyadditions.Crusher.removeRecipe(<minecraft:emerald>);
 mods.actuallyadditions.Crusher.removeRecipe(<minecraft:diamond>);
+
 recipes.remove(<actuallyadditions:block_atomic_reconstructor>);
 recipes.addShaped(<actuallyadditions:block_atomic_reconstructor>, [[<minecraft:iron_ingot>, <ancientwarfarevehicle:vehicle_upgrade_speed>, <minecraft:iron_ingot>],
 [<ancientwarfarevehicle:vehicle_upgrade_speed>, <actuallyadditions:block_misc:9>, <ancientwarfarevehicle:vehicle_upgrade_speed>],
