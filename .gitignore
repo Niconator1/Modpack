@@ -29,6 +29,7 @@ hs_err_pid*
 /saves/
 /server-resource-packs/
 /crash-reports/
+/screenshots/
 
 # Minecraft Files
 Minecraft.exe
@@ -42,6 +43,7 @@ usernamecache.json
 /assets/
 /snapshots-server/
 /journeymap/
+
 BotaniaVars.dat
 crafttweaker.log
 config/thaumicjei_itemstack_aspects.json
