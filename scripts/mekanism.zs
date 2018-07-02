@@ -31,4 +31,9 @@ recipes.addShaped(<mekanism:controlcircuit:1>, [[<ore:crystalKyronite>, <ore:blo
 [<ore:alloyAdvanced>, <mekanism:controlcircuit>, <ore:alloyAdvanced>], 
 [<ore:crystalKyronite>, <ore:blockKyronite>, <ore:crystalKyronite>]]);
 
+recipes.remove(<mekanism:machineblock:4>);
+recipes.addShaped(<mekanism:machineblock:4>, [[<mekanism:atomicalloy>, <ore:circuitAdvanced>, <mekanism:atomicalloy>], 
+[<mekanism:machineblock:15>, <mekanism:robit>.withTag({mekData: {}}), <mekanism:machineblock:15>], 
+[<mekanism:teleportationcore>, <extrautils2:quarry>, <mekanism:teleportationcore>]]);
+
 print("Initialized 'mekanism.zs'");

@@ -87,3 +87,61 @@ recipes.remove(<icbmclassic:explosives:14>);
 recipes.addShaped(<icbmclassic:explosives:14>, [[<icbmclassic:explosives:8>, <icbmclassic:explosives:8>, <icbmclassic:explosives:8>],
 [<icbmclassic:explosives:8>, <icbmclassic:explosives:7>, <icbmclassic:explosives:8>],
 [<icbmclassic:explosives:8>, <icbmclassic:explosives:6>, <icbmclassic:explosives:8>]]);
+
+recipes.remove(<icbmclassic:explosives:9>);
+recipes.addShaped(<icbmclassic:explosives:9>, [[null, <icbmclassic:explosives:4>, null], 
+[<icbmclassic:explosives:4>, <minecraft:rotten_flesh>, <icbmclassic:explosives:4>], 
+[null, <icbmclassic:explosives:4>, null]]);
+
+recipes.remove(<icbmclassic:explosives:10>);
+recipes.addShaped(<icbmclassic:explosives:10>, [[<ore:ingotIron>, <extraplanets:tier7_items>, <ore:ingotIron>], 
+[<extraplanets:tier7_items>, <icbmclassic:explosives:6>, <extraplanets:tier7_items>], 
+[<ore:ingotIron>, <extraplanets:tier7_items>, <ore:ingotIron>]]);
+
+recipes.remove(<icbmclassic:explosives:11>);
+recipes.addShaped(<icbmclassic:explosives:11>, [[<minecraft:gunpowder>, <icbmclassic:explosives>, <minecraft:gunpowder>], 
+[<minecraft:gunpowder>, <icbmclassic:explosives>, <minecraft:gunpowder>], 
+[<minecraft:gunpowder>, <icbmclassic:explosives>, <minecraft:gunpowder>]]);
+
+recipes.remove(<icbmclassic:missile:12>);
+recipes.remove(<icbmclassic:explosives:12>);
+recipes.addShaped(<icbmclassic:explosives:12>, [[<extrautils2:opinium:4>, <minecraft:clock>, <extrautils2:opinium:4>], 
+[<minecraft:clock>, <extrautils2:opinium:6>, <minecraft:clock>], 
+[<extrautils2:opinium:4>, <minecraft:clock>, <extrautils2:opinium:4>]]);
+
+recipes.remove(<icbmclassic:explosives:13>);
+recipes.addShaped(<icbmclassic:explosives:13>, [[<icbmclassic:explosives:4>, <icbmclassic:explosives:14>, <icbmclassic:explosives:4>],
+[<icbmclassic:explosives:14>, <icbmclassic:explosives:6>, <icbmclassic:explosives:14>], 
+[<icbmclassic:explosives:4>, <icbmclassic:explosives:14>, <icbmclassic:explosives:4>]]);
+
+recipes.remove(<icbmclassic:explosives:15>);
+recipes.addShaped(<icbmclassic:explosives:15>, [[<nuclearcraft:depleted_fuel_californium:7>, <nuclearcraft:depleted_fuel_californium:7>, <nuclearcraft:depleted_fuel_californium:7>], 
+[<nuclearcraft:depleted_fuel_californium:7>, <icbmclassic:explosives:13>, <nuclearcraft:depleted_fuel_californium:7>], 
+[<nuclearcraft:depleted_fuel_californium:7>, <nuclearcraft:depleted_fuel_californium:7>, <nuclearcraft:depleted_fuel_californium:7>]]);
+
+mods.jei.JEI.removeAndHide(<icbmclassic:explosives:17>);
+mods.jei.JEI.removeAndHide(<icbmclassic:explosives:18>);
+mods.jei.JEI.removeAndHide(<icbmclassic:missile:17>);
+mods.jei.JEI.removeAndHide(<icbmclassic:missile:18>);
+
+mods.jei.JEI.removeAndHide(<icbmclassic:explosives:19>);
+recipes.addShaped(<icbmclassic:explosives:19>, [[<extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>], 
+[<extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>], 
+[<extendedcrafting:storage:7>, <extendedcrafting:storage:7>, <extendedcrafting:storage:7>]]);
+
+recipes.remove(<icbmclassic:explosives:21>);
+recipes.addShaped(<icbmclassic:explosives:21>, [[<extrautils2:opinium:4>, <icbmclassic:explosives:10>, <extrautils2:opinium:4>], 
+[<icbmclassic:explosives:10>, <extrautils2:opinium:6>, <icbmclassic:explosives:10>], 
+[<extrautils2:opinium:4>, <icbmclassic:explosives:10>, <extrautils2:opinium:4>]]);
+
+recipes.remove(<icbmclassic:explosives:22>);
+recipes.addShaped(<icbmclassic:explosives:22>, [[<icbmclassic:explosives:15>, <extrautils2:opinium:8>, <icbmclassic:explosives:15>], 
+[<extrautils2:opinium:8>, <extendedcrafting:singularity:32>, <extrautils2:opinium:8>], 
+[<icbmclassic:explosives:15>,  <extrautils2:opinium:8>, <icbmclassic:explosives:15>]]);
+
+recipes.remove(<icbmclassic:explosives:23>);
+recipes.addShaped(<icbmclassic:explosives:23>, [[<extendedcrafting:singularity:32>, <extrautils2:opinium:8>, <extendedcrafting:singularity:3>], 
+[<extrautils2:opinium:8>, <icbmclassic:explosives:22>, <extrautils2:opinium:8>], 
+[<extendedcrafting:singularity:48>,  <extrautils2:opinium:8>, <extendedcrafting:singularity:17>]]);
+
+
