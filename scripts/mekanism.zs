@@ -47,12 +47,6 @@ recipes.addShaped(<mekanism:machineblock:10>, [[<ore:alloyBasic>, <ore:circuitBa
 [<ore:alloyBasic>, <ore:circuitBasic>, <ore:alloyBasic>]]);
 
 recipes.remove(<mekanism:transmitter>.withTag({tier: 0}));
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 8, [[<thermaldynamics:duct_0:0>,<thermaldynamics:duct_0:0>,<thermaldynamics:duct_0:0>],
-[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>],
-[<thermaldynamics:duct_0:0>,<thermaldynamics:duct_0:0>,<thermaldynamics:duct_0:0>]]);
-recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 8, [[<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>],
-[<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>],
-[<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>,<thermaldynamics:duct_0:1>]]);
 recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 8, [[<thermaldynamics:duct_0:2>,<thermaldynamics:duct_0:2>,<thermaldynamics:duct_0:2>],
 [<ore:ingotSteel>, <ore:dustRedstone>, <ore:ingotSteel>],
 [<thermaldynamics:duct_0:2>,<thermaldynamics:duct_0:2>,<thermaldynamics:duct_0:2>]]);
@@ -64,12 +58,6 @@ recipes.addShaped(<mekanism:transmitter>.withTag({tier: 0}) * 8, [[<thermaldynam
 [<thermaldynamics:duct_0:4>,<thermaldynamics:duct_0:4>,<thermaldynamics:duct_0:4>]]);
 
 recipes.remove(<mekanism:transmitter:3>.withTag({tier: 0}));
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 0}) * 8, [[<thermaldynamics:duct_32:0>,<thermaldynamics:duct_32:0>,<thermaldynamics:duct_32:0>],
-[<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>],
-[<thermaldynamics:duct_32:0>,<thermaldynamics:duct_32:0>,<thermaldynamics:duct_32:0>]]);
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 0}) * 8, [[<thermaldynamics:duct_32:1>,<thermaldynamics:duct_32:1>,<thermaldynamics:duct_32:1>],
-[<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>],
-[<thermaldynamics:duct_32:1>,<thermaldynamics:duct_32:1>,<thermaldynamics:duct_32:1>]]);
 recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 0}) * 8, [[<thermaldynamics:duct_32:2>,<thermaldynamics:duct_32:2>,<thermaldynamics:duct_32:2>],
 [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>],
 [<thermaldynamics:duct_32:2>,<thermaldynamics:duct_32:2>,<thermaldynamics:duct_32:2>]]);
