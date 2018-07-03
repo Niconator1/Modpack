@@ -1,0 +1,6 @@
+recipes.remove(<rftools:syringe>);
+recipes.remove(<rftools:machine_base>);
+recipes.remove(<rftools:machine_frame>);
+recipes.addShaped(<rftools:machine_base>, [[<thermalfoundation:glass:3>, <thermalfoundation:glass:3>, <thermalfoundation:glass:3>],[<immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>, <immersiveengineering:wirecoil:5>], [<enderio:item_alloy_ingot:3>, <enderio:item_basic_capacitor:1>, <enderio:item_alloy_ingot:3>]]);
+recipes.addShaped(<rftools:machine_frame>, [[<thermalfoundation:material:1024>, <thermalfoundation:material:288>, <thermalfoundation:material:1024>],[<thermalfoundation:material:288>, <thermalexpansion:frame>, <thermalfoundation:material:288>], [<enderio:item_basic_capacitor:1>, <thermalfoundation:material:288>, <enderio:item_basic_capacitor:1>]]);
+recipes.addShaped(<rftools:syringe>, [[null, null, <immersiveengineering:material:2>],[null, <actuallyadditions:block_crystal_empowered:5>, null], [<actuallyadditions:block_crystal_empowered:5>, null, null]]);
