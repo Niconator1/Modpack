@@ -20,4 +20,10 @@ recipes.addShaped(<actuallyadditions:block_misc:9>, [[<ore:ingotSteel>, <ore:sti
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:furnace"}), true);
 mods.jei.JEI.removeAndHide(<extrautils2:machine>.withTag({Type: "extrautils2:crusher"}), true);
 
+recipes.remove(<extrautils2:quarry>);
+recipes.addShaped(<extrautils2:quarry>, [[<minecraft:end_stone:*>, <extrautils2:decorativesolid:3>, <minecraft:end_stone:*>], 
+[<extrautils2:decorativesolid:3>, <ancientwarfareautomation:quarry>, <extrautils2:decorativesolid:3>], 
+[<minecraft:end_stone:*>, <extrautils2:decorativesolid:3>, <minecraft:end_stone:*>]]);
+
+
 print("Initialized 'extrautilities.zs'");

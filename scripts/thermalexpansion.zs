@@ -58,4 +58,25 @@ recipes.addShaped(<thermalexpansion:machine:1>, [[null, <appliedenergistics2:gri
 [<nuclearcraft:rock_crusher_idle>, <thermalexpansion:frame>, <actuallyadditions:block_grinder>],
 [<ore:gearCopper>, <thermalfoundation:material:513>, <ore:gearCopper>]]);
 
+recipes.remove(<thermalfoundation:upgrade:3>);
+recipes.addShaped(<thermalfoundation:upgrade:3>, [[<extendedcrafting:material:17>, <ore:ingotEnderium>, <extendedcrafting:material:17>], 
+[<ore:ingotEnderium>, <ore:gearLumium>, <ore:ingotEnderium>], 
+[<ore:dustPyrotheum>, <ore:ingotEnderium>, <ore:dustPyrotheum>]]);
+
+recipes.remove(<thermalfoundation:upgrade:2>);
+recipes.addShaped(<thermalfoundation:upgrade:2>, [[<extendedcrafting:material:16>, <ore:ingotSignalum>, <extendedcrafting:material:16>], 
+[<ore:ingotSignalum>, <ore:gearElectrum>, <ore:ingotSignalum>], 
+[<ore:dustCryotheum>, <ore:ingotSignalum>, <ore:dustCryotheum>]]);
+
+recipes.remove(<thermalfoundation:upgrade:1>);
+recipes.addShaped(<thermalfoundation:upgrade:1>, [[<extendedcrafting:material:15>, <ore:ingotElectrum>, <extendedcrafting:material:15>], 
+[<ore:ingotElectrum>, <ore:gearSilver>, <ore:ingotElectrum>], 
+[<ore:blockGlassHardened>, <ore:ingotElectrum>, <ore:blockGlassHardened>]]);
+
+recipes.remove(<thermalfoundation:upgrade>);
+recipes.addShaped(<thermalfoundation:upgrade>, [[<extendedcrafting:material:14>, <ore:ingotInvar>, <extendedcrafting:material:14>], 
+[<ore:ingotInvar>, <ore:gearBronze>, <ore:ingotInvar>], 
+[<ore:dustRedstone>, <ore:ingotInvar>, <ore:dustRedstone>]]);
+
+
 print("Initialized 'thermalexpansion.zs'");
