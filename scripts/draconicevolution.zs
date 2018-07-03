@@ -10,3 +10,8 @@ recipes.remove(<draconicevolution:draconic_core>);
 recipes.addShaped(<draconicevolution:draconic_core>, [[<ore:ingotDraconium>, <ore:ingotGold>, <ore:ingotDraconium>], 
 [<ore:ingotGold>, <extraplanets:tier5_items:12>, <ore:ingotGold>], 
 [<ore:ingotDraconium>, <ore:ingotGold>, <ore:ingotDraconium>]]);
+
+recipes.remove(<fluxnetworks:fluxblock>);
+recipes.addShaped(<fluxnetworks:fluxblock>, [[<fluxnetworks:flux:*>, <fluxnetworks:fluxcore:*>, <fluxnetworks:flux:*>], 
+[<fluxnetworks:fluxcore:*>, <extraplanets:ultimate_battery>.withTag({electricity: 200000.0 as float}), <fluxnetworks:fluxcore:*>], 
+[<fluxnetworks:flux:*>, <fluxnetworks:fluxcore:*>, <fluxnetworks:flux:*>]]);
