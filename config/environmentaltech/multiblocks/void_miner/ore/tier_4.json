@@ -126,11 +126,6 @@
       "id": "OD:oreCinnabar"
     },
     {
-      "target": "orange",
-      "weight": 184,
-      "id": "OD:oreAmber"
-    },
-    {
       "target": "gray",
       "weight": 232,
       "id": "OD:oreNickel"
@@ -246,19 +241,9 @@
       "id": "deepresonance:resonating_ore"
     },
     {
-      "target": "pink",
-      "weight": 186,
-      "id": "OD:oreZinc"
-    },
-    {
       "target": "white",
       "weight": 157,
       "id": "OD:oreIridium"
-    },
-    {
-      "target": "black",
-      "weight": 192,
-      "id": "OD:oreTungsten"
     },
     {
       "target": "silver",
@@ -269,11 +254,6 @@
       "target": "white",
       "weight": 160,
       "id": "OD:oreSalt"
-    },
-    {
-      "target": "white",
-      "weight": 127,
-      "id": "rftools:dimensional_shard_ore"
     },
     {
       "target": "green",
@@ -298,7 +278,7 @@
     {
       "target": "yellow",
       "weight": 111,
-      "id": "OD:oreCrystalAir"
+      "id": "thaumcraft:crystal_aer:0"
     },
     {
       "target": "orange",
@@ -341,36 +321,6 @@
       "id": "astralsorcery:blockcustomore:0"
     },
     {
-      "target": "red",
-      "weight": 200,
-      "id": "OD:oreRuby"
-    },
-    {
-      "target": "green",
-      "weight": 200,
-      "id": "OD:orePeridot"
-    },
-    {
-      "target": "orange",
-      "weight": 200,
-      "id": "OD:oreTopaz"
-    },
-    {
-      "target": "purple",
-      "weight": 200,
-      "id": "OD:oreTanzanite"
-    },
-    {
-      "target": "cyan",
-      "weight": 200,
-      "id": "OD:oreMalachite"
-    },
-    {
-      "target": "blue",
-      "weight": 200,
-      "id": "OD:oreSapphire"
-    },
-    {
       "target": "orange",
       "weight": 200,
       "id": "OD:oreGarnet"
@@ -399,11 +349,6 @@
       "target": "purple",
       "weight": 200,
       "id": "OD:oreIolite"
-    },
-    {
-      "target": "purple",
-      "weight": 200,
-      "id": "OD:oreAmethyst"
     },
     {
       "target": "pink",
@@ -504,6 +449,11 @@
       "target": "green",
       "weight": 200,
       "id": "OD:oreEnderEssence"
+    },
+    {
+      "target": "green",
+      "weight": 4,
+      "id": "OD:oreNaquadah"
     }
   ]
 }
