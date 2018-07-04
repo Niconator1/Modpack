@@ -1,7 +1,7 @@
 mods.jei.JEI.removeAndHide(<galacticraftplanets:telepad_short>);
 
 recipes.remove(<galacticraftcore:distributor>);
-recipes.addShaped("galacticraftcore:distributor", <galacticraftcore:distributor>, [[<ore:compressedSteel>, <galacticraftcore:air_fan>, <ore:compressedSteel>], 
+recipes.addShaped(<galacticraftcore:distributor>, [[<ore:compressedSteel>, <galacticraftcore:air_fan>, <ore:compressedSteel>], 
 [<galacticraftcore:air_vent>, <thermalexpansion:frame>, <galacticraftcore:air_vent>], 
 [<ore:compressedSteel>, <galacticraftcore:air_fan>, <ore:compressedSteel>]]);
 
