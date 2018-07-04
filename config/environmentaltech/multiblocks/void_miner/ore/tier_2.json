@@ -273,32 +273,32 @@
     {
       "target": "orange",
       "weight": 111,
-      "id": "OD:oreCrystalFire"
+      "id": "thaumcraft:crystal_ignis:0"
     },
     {
       "target": "light_blue",
       "weight": 111,
-      "id": "OD:oreCrystalWater"
+      "id": "thaumcraft:crystal_aqua:0"
     },
     {
       "target": "lime",
       "weight": 111,
-      "id": "OD:oreCrystalEarth"
+      "id": "thaumcraft:crystal_terra:0"
     },
     {
       "target": "white",
       "weight": 111,
-      "id": "OD:oreCrystalOrder"
+      "id": "thaumcraft:crystal_ordo:0"
     },
     {
       "target": "black",
       "weight": 111,
-      "id": "OD:oreCrystalEntropy"
+      "id": "thaumcraft:crystal_perditio:0"
     },
     {
       "target": "purple",
       "weight": 111,
-      "id": "OD:oreCrystalTaint"
+      "id": "thaumcraft:crystal_vitium:0"
     },
     {
       "target": "lime",
