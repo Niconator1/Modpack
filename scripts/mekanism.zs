@@ -91,4 +91,21 @@ recipes.addShaped(<mekanism:energycube>.withTag({tier: 3, mekData: {}}), [[<meka
 [<ore:gemDiamond>, <mekanism:energycube>.withTag({tier: 2, mekData: {}}), <ore:gemDiamond>], 
 [<mekanism:controlcircuit:3>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit:3>]]);
 
+mods.mekanism.enrichment.addRecipe(<sgcraft:naquadahore>, <sgcraft:naquadah>);
+mods.mekanism.enrichment.addRecipe(<nuclearcraft:ore:6>,<nuclearcraft:dust:6>);
+mods.mekanism.enrichment.addRecipe(<actuallyadditions:block_misc:3>,<actuallyadditions:item_misc:5>*2);
+mods.mekanism.enrichment.addRecipe(<nuclearcraft:ore:3>,<nuclearcraft:dust:3>*2);
+mods.mekanism.enrichment.addRecipe(<nuclearcraft:ore:7>,<nuclearcraft:dust:7>*2);
+mods.mekanism.enrichment.addRecipe(<nuclearcraft:ore:5>,<nuclearcraft:dust:5>*2);
+mods.mekanism.enrichment.addRecipe(<projectred-exploration:ore:6>,<projectred-core:resource_item:105>);
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>,<enderio:item_material:30>*2);
+mods.mekanism.enrichment.addRecipe(<tconstruct:ore>,<enderio:item_material:31>*2);
+
+mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:6>, <nuclearcraft:ingot:6>);
+mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:3>, <nuclearcraft:ingot:3>);
+mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:5>, <nuclearcraft:ingot:5>);
+mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:7>, <nuclearcraft:ingot:7>);
+mods.mekanism.smelter.addRecipe(<enderio:item_material:30>, <tconstruct:ingots:1>);
+mods.mekanism.smelter.addRecipe(<enderio:item_material:31>, <tconstruct:ingots>);
+
 print("Initialized 'mekanism.zs'");
