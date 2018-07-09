@@ -101,11 +101,11 @@ mods.mekanism.enrichment.addRecipe(<projectred-exploration:ore:6>,<projectred-co
 mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>,<enderio:item_material:30>*2);
 mods.mekanism.enrichment.addRecipe(<tconstruct:ore>,<enderio:item_material:31>*2);
 
-mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:6>, <nuclearcraft:ingot:6>);
-mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:3>, <nuclearcraft:ingot:3>);
-mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:5>, <nuclearcraft:ingot:5>);
-mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:7>, <nuclearcraft:ingot:7>);
-mods.mekanism.smelter.addRecipe(<enderio:item_material:30>, <tconstruct:ingots:1>);
-mods.mekanism.smelter.addRecipe(<enderio:item_material:31>, <tconstruct:ingots>);
+#mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:6>, <nuclearcraft:ingot:6>);
+#mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:3>, <nuclearcraft:ingot:3>);
+#mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:5>, <nuclearcraft:ingot:5>);
+#mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:7>, <nuclearcraft:ingot:7>);
+#mods.mekanism.smelter.addRecipe(<enderio:item_material:30>, <tconstruct:ingots:1>);
+#mods.mekanism.smelter.addRecipe(<enderio:item_material:31>, <tconstruct:ingots>);
 
 print("Initialized 'mekanism.zs'");
