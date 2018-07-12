@@ -35,3 +35,5 @@ recipes.addShaped(<sgcraft:sgcontrollercrystal>,[[<minecraft:diamond:*>, <minecr
 
 recipes.remove(<sgcraft:sgirisblade>);
 recipes.addShaped(<sgcraft:sgirisblade>, [[null, <ore:ingotSteel>, <ore:ingotSteel>], [<ore:ingotSteel>, <minecraft:coal:1>, null], [<ore:ingotSteel>, null, null]]);
+
+recipes.remove(<sgcraft:naquadah>);
