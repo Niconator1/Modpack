@@ -1,6 +1,6 @@
 print("Initializing 'horsepower.zs'...");
 
-mods.horsepower.Grindstone.add(<mekanism:dirtydust>, <thermalfoundation:material>, 30, false);
+mods.horsepower.Grindstone.add(<mekanism:dirtydust>, <thermalfoundation:material>, 10, false);
 
 mods.horsepower.ChoppingBlock.add(<minecraft:log>,<minecraft:planks> * 4,1,false);
 mods.horsepower.ChoppingBlock.add(<minecraft:log2>,<minecraft:planks:4> * 4,1,false);
