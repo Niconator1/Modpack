@@ -75,7 +75,7 @@
     "source": "minecraft:stone",
     "srcmeta": 0,
     "veins": 48,
-    "size": 24,
+    "size": 6,
     "miny": 10,
     "maxy": 246
    }
