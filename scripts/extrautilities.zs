@@ -8,7 +8,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <beneath:teleporterbeneath>, [
 	[<ore:crystalCertusQuartz>, <ore:oreNickel>, <ore:oreTin>, <ore:oreSilver>, <thaumcraft:nugget:10>], 
 	[<ore:oreThorium>, <ore:gemDark>, <ore:oreCinnabar>, <ore:itemSilicon>, <ore:oreUranium>]
 ]);
-recipes.remove(<extrautils2:machine>.withEmptyTag());
+recipes.removeByRecipeName("extrautils2:machine_base");
 recipes.addShaped(<extrautils2:machine>, [[<ore:ingotSteel>, <ore:ingotDemonicMetal>, <ore:ingotSteel>],
 [<ore:ingotDemonicMetal>, <actuallyadditions:block_misc:9>, <ore:ingotDemonicMetal>],
 [<ore:ingotSteel>, <ore:ingotDemonicMetal>, <ore:ingotSteel>]]);
