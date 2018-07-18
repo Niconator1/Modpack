@@ -1,8 +1,9 @@
-recipes.remove(<sgcraft:rfpowerunit>);
+recipes.removeByRecipeName("sgcraft:rfpowerunit");
 recipes.addShaped(<sgcraft:rfpowerunit>, [[<thermalfoundation:material:514>, <thermalfoundation:material:514>, <thermalfoundation:material:514>], 
 [<thermalexpansion:cell>, <thermalfoundation:material:513>, <thermalexpansion:cell>], 
 [<ore:ingotInvar>, <ore:ingotCopper>, <ore:ingotInvar>]]);
 
+recipes.removeByRecipeName("sgcraft:sgringblock");
 recipes.remove(<sgcraft:stargatering>);
 recipes.addShaped(<sgcraft:stargatering>, [[<ore:blockLead>, <minecraft:sandstone:1>, <ore:blockLead>], 
 [<ore:ingotNaquadahAlloy>, <ore:ingotNaquadahAlloy>, <ore:ingotNaquadahAlloy>], 
