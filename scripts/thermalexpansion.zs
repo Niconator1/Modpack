@@ -78,5 +78,9 @@ recipes.addShaped(<thermalfoundation:upgrade>, [[<extendedcrafting:material:14>,
 [<ore:ingotInvar>, <ore:gearBronze>, <ore:ingotInvar>], 
 [<ore:dustRedstone>, <ore:ingotInvar>, <ore:dustRedstone>]]);
 
+recipes.remove(<thermalfoundation:storage:3>);
+recipes.addShaped(<thermalfoundation:storage:3>, [[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], 
+[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], 
+[<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
 
 print("Initialized 'thermalexpansion.zs'");
