@@ -1,7 +1,6 @@
 print("Initializing 'enderio.zs'...");
 
 mods.jei.JEI.removeAndHide(<enderio:block_tele_pad>);
-mods.jei.JEI.removeAndHide(<enderio:block_simple_alloy_smelter>);
 
 recipes.remove(<enderio:item_material>);
 recipes.addShaped(<enderio:item_material>, [[<thermalfoundation:material:354>, <thermalfoundation:glass_alloy:4>, <thermalfoundation:material:354>],
