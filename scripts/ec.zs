@@ -42,3 +42,35 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <tconstruct:materials:50>, [
 	[<ore:ingotVoid>, <ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>, <ore:ingotVoid>], 
 	[<ore:ingotTerrasteel>, <ore:ingotVoid>, <ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>, <ore:ingotVoid>, <ore:ingotTerrasteel>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <bhc:green_heart>, [
+	[<ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <bhc:red_heart>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotThaumium>, <ore:ingotVoid>], 
+	[<ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>, <ore:ingotVoid>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <bhc:blue_heart>, [
+	[<ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <bhc:red_heart>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <extraplanets:tier5_items:12>, <ore:ingotDarkIron>], 
+	[<ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>]
+]);
+
+recipes.remove(<bhc:blue_heart_canister>);
+recipes.addShapeless(<bhc:blue_heart_canister>, [<bhc:orange_heart_canister>, <bhc:blue_heart>, <minecraft:nether_star>, <minecraft:shulker_shell>]);
+
+recipes.remove(<bhc:heart_amulet>);
+recipes.addShaped("bhc:heart_amulet", <bhc:heart_amulet>, [[<ore:string>, <bhc:red_heart_canister>, <ore:string>],
+[<bhc:orange_heart_canister>, <ore:blockGlass>, <bhc:orange_heart_canister>], 
+[null, <bhc:red_heart_canister>, null]]);
