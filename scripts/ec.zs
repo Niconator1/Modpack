@@ -30,3 +30,15 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <extendedcrafting:material:32>,
 	[<ore:ingotManyullyn>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotManyullyn>], 
 	[<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <tconstruct:materials:50>, [
+	[<ore:ingotTerrasteel>, <ore:ingotVoid>, <ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>, <ore:ingotVoid>, <ore:ingotTerrasteel>], 
+	[<ore:ingotVoid>, <ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>, <ore:ingotVoid>], 
+	[<ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:slimecrystalBlue>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>], 
+	[<tconstruct:materials:19>, <ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:slimecrystalBlue>, <ore:slimecrystalMagma>, <ore:slimecrystalBlue>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>, <tconstruct:materials:19>], 
+	[<ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:slimecrystalBlue>, <ore:slimecrystalMagma>, <ore:blockManyullyn>, <ore:slimecrystalMagma>, <ore:slimecrystalBlue>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>], 
+	[<tconstruct:materials:19>, <ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:slimecrystalBlue>, <ore:slimecrystalMagma>, <ore:slimecrystalBlue>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>, <tconstruct:materials:19>], 
+	[<ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:slimecrystalBlue>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>], 
+	[<ore:ingotVoid>, <ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <ore:slimecrystalGreen>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>, <ore:ingotVoid>], 
+	[<ore:ingotTerrasteel>, <ore:ingotVoid>, <ore:ingotDarkIron>, <tconstruct:materials:19>, <ore:ingotKnightslime>, <tconstruct:materials:19>, <ore:ingotDarkIron>, <ore:ingotVoid>, <ore:ingotTerrasteel>]
+]);
