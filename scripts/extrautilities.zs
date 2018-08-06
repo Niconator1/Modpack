@@ -25,5 +25,11 @@ recipes.addShaped(<extrautils2:quarry>, [[<minecraft:end_stone:*>, <extrautils2:
 [<extrautils2:decorativesolid:3>, <ancientwarfareautomation:quarry>, <extrautils2:decorativesolid:3>], 
 [<minecraft:end_stone:*>, <extrautils2:decorativesolid:3>, <minecraft:end_stone:*>]]);
 
+recipes.removeByRecipeName("extrautils2:angel_ring_0");
+recipes.removeByRecipeName("extrautils2:angel_ring_1");
+recipes.removeByRecipeName("extrautils2:angel_ring_2");
+recipes.removeByRecipeName("extrautils2:angel_ring_3");
+recipes.removeByRecipeName("extrautils2:angel_ring_4");
+recipes.removeByRecipeName("extrautils2:angel_ring_5");
 
 print("Initialized 'extrautilities.zs'");

@@ -71,6 +71,6 @@ recipes.remove(<bhc:blue_heart_canister>);
 recipes.addShapeless(<bhc:blue_heart_canister>, [<bhc:orange_heart_canister>, <bhc:blue_heart>, <minecraft:nether_star>, <minecraft:shulker_shell>]);
 
 recipes.remove(<bhc:heart_amulet>);
-recipes.addShaped("bhc:heart_amulet", <bhc:heart_amulet>, [[<ore:string>, <bhc:red_heart_canister>, <ore:string>],
+recipes.addShaped(<bhc:heart_amulet>, [[<ore:string>, <bhc:red_heart_canister>, <ore:string>],
 [<bhc:orange_heart_canister>, <ore:blockGlass>, <bhc:orange_heart_canister>], 
 [null, <bhc:red_heart_canister>, null]]);

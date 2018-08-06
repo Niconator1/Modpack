@@ -1,3 +1,4 @@
+mods.jei.JEI.removeAndHide(<sgcraft:ic2powerunit>);
 recipes.removeByRecipeName("sgcraft:rfpowerunit");
 recipes.addShaped(<sgcraft:rfpowerunit>, [[<thermalfoundation:material:514>, <thermalfoundation:material:514>, <thermalfoundation:material:514>], 
 [<thermalexpansion:cell>, <thermalfoundation:material:513>, <thermalexpansion:cell>], 
