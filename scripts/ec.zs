@@ -74,3 +74,15 @@ recipes.remove(<bhc:heart_amulet>);
 recipes.addShaped(<bhc:heart_amulet>, [[<ore:string>, <bhc:red_heart_canister>, <ore:string>],
 [<bhc:orange_heart_canister>, <ore:blockGlass>, <bhc:orange_heart_canister>], 
 [null, <bhc:red_heart_canister>, null]]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <extrautils2:angelring>, [
+	[<ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <xreliquary:rending_gale>, <rftools:flight_module>, <mekanism:armoredjetpack>, <mekanism:armoredjetpack>, <mekanism:armoredjetpack>, <botania:manaringgreater>, <xreliquary:rending_gale>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <rftools:flight_module>, <mekanism:armoredjetpack>, <xreliquary:angelic_feather>, <xreliquary:angelic_feather>, <xreliquary:angelic_feather>, <mekanism:armoredjetpack>, <botania:manaringgreater>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <mekanism:armoredjetpack>, <xreliquary:angelic_feather>, <projectred-expansion:jetpack>, <projectred-expansion:jetpack>, <projectred-expansion:jetpack>, <xreliquary:angelic_feather>, <mekanism:armoredjetpack>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <mekanism:armoredjetpack>, <xreliquary:angelic_feather>, <projectred-expansion:jetpack>, <extraplanets:tier1_space_suit_jetpack_chest:100>, <projectred-expansion:jetpack>, <xreliquary:angelic_feather>, <mekanism:armoredjetpack>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <mekanism:armoredjetpack>, <xreliquary:angelic_feather>, <projectred-expansion:jetpack>, <projectred-expansion:jetpack>, <projectred-expansion:jetpack>, <xreliquary:angelic_feather>, <mekanism:armoredjetpack>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <botania:manaringgreater>, <mekanism:armoredjetpack>, <xreliquary:angelic_feather>, <xreliquary:angelic_feather>, <xreliquary:angelic_feather>, <mekanism:armoredjetpack>, <rftools:flight_module>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <xreliquary:rending_gale>, <botania:manaringgreater>, <mekanism:armoredjetpack>, <mekanism:armoredjetpack>, <mekanism:armoredjetpack>, <rftools:flight_module>, <xreliquary:rending_gale>, <ore:itemGliderWings>], 
+	[<ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>, <ore:itemGliderWings>]
+]);
