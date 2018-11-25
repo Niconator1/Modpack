@@ -38,6 +38,6 @@ recipes.addShaped(<nuclearcraft:cooler>, [[<thermalfoundation:material:352>, <th
 recipes.remove(<nuclearcraft:nuclear_furnace_idle>);
 recipes.addShaped(<nuclearcraft:nuclear_furnace_idle>, [[<nuclearcraft:part>, <nuclearcraft:alloy:1>, <nuclearcraft:part>],
 [<nuclearcraft:alloy:1>, <thermalexpansion:frame>, <nuclearcraft:alloy:1>],
-[<nuclearcraft:part>, <forge:bucketfilled>, <nuclearcraft:part>]]);
+[<nuclearcraft:part>, <forge:bucketfilled>.withTag({FluidName: "empoweredoil", Amount: 1000}), <nuclearcraft:part>]]);
 
 print("Initialized 'nuclearcraft.zs'");
