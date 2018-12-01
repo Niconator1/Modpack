@@ -3,10 +3,26 @@
 
 <!-- 
 
-These are the build-in recipes. You cannot change this file, it is a
+These are the built-in recipes. You cannot change this file, it is a
 reference for you only and will be generated every time the game starts.
 
-For more information, see base.xml.
+To make changes to the recipes, copy the recipes you want to change to
+a file in the 'user' folder. To disable a recipe, add an attribute "disabled"
+and set it to true, e.g.: <recipe name="Gear" disabled="true" />
+
+You can also disable all built-in recipes with the setting "loadCoreRecipes"
+in the Ender IO config file, so that only your files in the 'user' folder will
+be loaded. Please be advised that a number of recipes are absolutely needed,
+so you will have to copy those over into a 'user' file for the game to load.
+
+Item specifications can reference an alias, an ore dictionary name, a
+block or an item. You can force the type by prefixing the value with
+"oredict:", "block:" or "item:". Recipes that have items that cannot be
+found in-game are either skipped or an error, depending on their "required"
+attribute.
+
+More information on the syntax can be found in the recipes.xsd file. An
+XML editor will display that as tooltips when editing this file.
 
  -->
 
@@ -156,7 +172,7 @@ For more information, see base.xml.
   </recipe>
   <recipe name="Enchanter: minecraft:infinity" required="true" disabled="false">
     <enchanting>
-      <input name="minecraft:ender_pearl" amount="1"/>
+      <input name="POWDER_INFINITY" amount="4"/>
       <enchantment name="minecraft:infinity" costMultiplier="1"/>
     </enchanting>
   </recipe>
@@ -194,6 +210,12 @@ For more information, see base.xml.
     <enchanting>
       <input name="itemWitheringDust" amount="4"/>
       <enchantment name="enderio:witherweapon" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+  <recipe name="Enchanter: enderio:repellent" required="true" disabled="false">
+    <enchanting>
+      <input name="minecraft:ender_pearl" amount="4"/>
+      <enchantment name="enderio:repellent" costMultiplier="2"/>
     </enchanting>
   </recipe>
 
@@ -256,7 +278,7 @@ For more information, see base.xml.
   <recipe name="Enchanter: draconicevolution:enchant_reaper" required="false" disabled="false">
     <enchanting>
       <input name="draconicevolution:draconium_block" amount="12"/>
-      <enchantment name="draconicevolution:enchant_reaper" costMultiplier="2"/>
+      <enchantment name="draconicevolution:enchant_reaper" costMultiplier="1"/>
     </enchanting>
   </recipe>
 
@@ -305,6 +327,28 @@ For more information, see base.xml.
     <enchanting>
       <input name="abyssalcraft:shadowgem" amount="1"/>
       <enchantment name="abyssalcraft:light_pierce" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <!-- Railcraft -->
+  <recipe name="Enchanter: railcraft:destruction" required="false" disabled="false">
+    <enchanting>
+      <input name="dustSulfur" amount="8"/>
+      <enchantment name="railcraft:destruction" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <recipe name="Enchanter: railcraft:implosion" required="false" disabled="false">
+    <enchanting>
+      <input name="dustVoid" amount="3"/>
+      <enchantment name="railcraft:implosion" costMultiplier="1"/>
+    </enchanting>
+  </recipe>
+
+  <recipe name="Enchanter: railcraft:wrecking" required="false" disabled="false">
+    <enchanting>
+      <input name="ingotSteel" amount="4"/>
+      <enchantment name="railcraft:wrecking" costMultiplier="1"/>
     </enchanting>
   </recipe>
 
