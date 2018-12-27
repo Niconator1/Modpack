@@ -72,21 +72,25 @@ recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 0}) * 8, [[<thermaldyn
 [<thermaldynamics:duct_32:5>,<thermaldynamics:duct_32:5>,<thermaldynamics:duct_32:5>]]);
 
 recipes.remove(<mekanism:energycube>.withTag({tier: 0, mekData: {}}));
+recipes.removeByRecipeName("mekanism:energycube_0");
 recipes.addShaped(<mekanism:energycube>.withTag({tier: 0, mekData: {}}), [[<mekanism:controlcircuit>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit>], 
 [<ore:ingotIron>, <mekanism:basicblock:8>, <ore:ingotIron>], 
 [<mekanism:controlcircuit>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit>]]);
 
 recipes.remove(<mekanism:energycube>.withTag({tier: 1, mekData: {}}));
+recipes.removeByRecipeName("mekanism:energycube_0_alt");
 recipes.addShaped(<mekanism:energycube>.withTag({tier: 1, mekData: {}}), [[<mekanism:controlcircuit:1>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit:1>], 
 [<ore:ingotOsmium>, <mekanism:energycube>.withTag({tier: 0, mekData: {}}), <ore:ingotOsmium>], 
 [<mekanism:controlcircuit:1>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit:1>]]);
 
 recipes.remove(<mekanism:energycube>.withTag({tier: 2, mekData: {}}));
+recipes.removeByRecipeName("mekanism:energycube_0_alt_alt");
 recipes.addShaped(<mekanism:energycube>.withTag({tier: 2, mekData: {}}), [[<mekanism:controlcircuit:2>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit:2>], 
 [<ore:ingotGold>, <mekanism:energycube>.withTag({tier: 1, mekData: {}}), <ore:ingotGold>], 
 [<mekanism:controlcircuit:2>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit:2>]]);
 
 recipes.remove(<mekanism:energycube>.withTag({tier: 3, mekData: {}}));
+recipes.removeByRecipeName("mekanism:energycube_0_alt_alt_alt");
 recipes.addShaped(<mekanism:energycube>.withTag({tier: 3, mekData: {}}), [[<mekanism:controlcircuit:3>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit:3>], 
 [<ore:gemDiamond>, <mekanism:energycube>.withTag({tier: 2, mekData: {}}), <ore:gemDiamond>], 
 [<mekanism:controlcircuit:3>, <mekanism:energytablet>.withTag({mekData: {}}), <mekanism:controlcircuit:3>]]);
@@ -100,6 +104,7 @@ mods.mekanism.enrichment.addRecipe(<nuclearcraft:ore:5>,<nuclearcraft:dust:5>*2)
 mods.mekanism.enrichment.addRecipe(<projectred-exploration:ore:6>,<projectred-core:resource_item:105>);
 mods.mekanism.enrichment.addRecipe(<tconstruct:ore:1>,<enderio:item_material:30>*2);
 mods.mekanism.enrichment.addRecipe(<tconstruct:ore>,<enderio:item_material:31>*2);
+mods.mekanism.enrichment.addRecipe(<thermalfoundation:ore:8>,<thermalfoundation:material:72>*2);
 
 #mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:6>, <nuclearcraft:ingot:6>);
 #mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:3>, <nuclearcraft:ingot:3>);
