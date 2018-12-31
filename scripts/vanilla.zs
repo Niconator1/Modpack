@@ -63,6 +63,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:wooden_pickaxe>, [
 recipes.remove(<minecraft:stick>);
 recipes.addShapeless(<minecraft:stick> * 2, [<ore:plankWood>, <ore:plankWood>]);
 
+recipes.addShaped(<minecraft:planks> * 10, [[null, <ore:logWood>, null],[<ore:logWood>, <ore:logWood>, <ore:logWood>], [null, <ore:logWood>, null]]);
+
 recipes.remove(<ore:plankWood>);
 recipes.addShapeless(<minecraft:planks> * 2, [<minecraft:log>]);
 recipes.addShapeless(<minecraft:planks:4> * 2, [<minecraft:log2>]);
