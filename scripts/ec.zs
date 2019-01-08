@@ -67,6 +67,18 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <bhc:blue_heart>, [
 	[<ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>, <ore:ingotDarkIron>]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <galacticraftcore:dungeonfinder>, [
+	[<galacticraftplanets:basic_item_venus:2>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <galacticraftplanets:basic_item_venus:2>], 
+	[<ore:ingotMeteoricIron>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <ore:ingotMeteoricIron>], 
+	[<ore:ingotMeteoricIron>, <minecraft:compass>, <xreliquary:mob_ingredient:11>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:11>, <minecraft:compass>, <ore:ingotMeteoricIron>], 
+	[<ore:ingotMeteoricIron>, <minecraft:compass>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:10>, <xreliquary:mob_ingredient:9>, <xreliquary:mob_ingredient:10>, <xreliquary:mob_ingredient:7>, <minecraft:compass>, <ore:ingotMeteoricIron>], 
+	[<ore:ingotMeteoricIron>, <minecraft:compass>, <xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient:9>, <xreliquary:mob_ingredient:8>, <xreliquary:mob_ingredient:9>, <xreliquary:mob_ingredient:6>, <minecraft:compass>, <ore:ingotMeteoricIron>], 
+	[<ore:ingotMeteoricIron>, <minecraft:compass>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:10>, <xreliquary:mob_ingredient:9>, <xreliquary:mob_ingredient:10>, <xreliquary:mob_ingredient:7>, <minecraft:compass>, <ore:ingotMeteoricIron>], 
+	[<ore:ingotMeteoricIron>, <minecraft:compass>, <xreliquary:mob_ingredient:11>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:6>, <xreliquary:mob_ingredient:7>, <xreliquary:mob_ingredient:11>, <minecraft:compass>, <ore:ingotMeteoricIron>], 
+	[<ore:ingotMeteoricIron>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <minecraft:compass>, <ore:ingotMeteoricIron>], 
+	[<galacticraftplanets:basic_item_venus:2>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <ore:ingotMeteoricIron>, <galacticraftplanets:basic_item_venus:2>]
+]);
+
 recipes.remove(<bhc:blue_heart_canister>);
 recipes.addShapeless(<bhc:blue_heart_canister>, [<bhc:orange_heart_canister>, <bhc:blue_heart>, <minecraft:nether_star>, <minecraft:shulker_shell>]);
 
