@@ -58,6 +58,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:wooden_pickaxe>, [
 	[null, <ore:stickWood>, null], 
 	[null, <ore:stickWood>, null]
 ]);
+#
+recipes.addShapeless(<extrabees:honey_comb:11>,[<morebees:combrock>]);
 
 #wood changes
 recipes.remove(<minecraft:stick>);
