@@ -107,6 +107,7 @@ mods.mekanism.enrichment.addRecipe(<tconstruct:ore>,<enderio:item_material:31>*2
 mods.mekanism.enrichment.addRecipe(<thermalfoundation:ore:8>,<thermalfoundation:material:72>*2);
 
 mods.mekanism.crusher.addRecipe(<appliedenergistics2:sky_stone_block>, <appliedenergistics2:material:45>);
+mods.mekanism.crusher.addRecipe(<nuclearcraft:ingot:6>, <nuclearcraft:dust:6>);
 mods.mekanism.crusher.addRecipe(<minecraft:blaze_rod>, <minecraft:blaze_powder>*2);
 
 #mods.mekanism.smelter.addRecipe(<nuclearcraft:dust:6>, <nuclearcraft:ingot:6>);
