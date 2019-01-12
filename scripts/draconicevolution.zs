@@ -22,6 +22,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:energy_stora
 	[<draconicevolution:wyvern_core>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <mekanism:basicblock2:3>, <draconicevolution:wyvern_core>]
 ]);
 
+recipes.remove(<draconicevolution:energy_pylon>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <draconicevolution:energy_pylon>*2, [
 	[<draconicevolution:wyvern_core>, <mekanism:basicblock2:4>, <mekanism:basicblock2:4>, <mekanism:basicblock2:4>, <mekanism:basicblock2:4>, <mekanism:basicblock2:4>, <mekanism:basicblock2:4>, <mekanism:basicblock2:4>, <draconicevolution:wyvern_core>], 
 	[<mekanism:basicblock2:4>, <draconicevolution:wyvern_core>, <extrautils2:opinium:4>, <extrautils2:opinium:4>, <extrautils2:opinium:4>, <extrautils2:opinium:4>, <extrautils2:opinium:4>, <draconicevolution:wyvern_core>, <mekanism:basicblock2:4>], 
