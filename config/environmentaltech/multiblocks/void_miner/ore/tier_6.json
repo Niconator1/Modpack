@@ -456,6 +456,76 @@
       "id": "OD:oreEnderEssence"
     },
     {
+      "target": "white",
+      "weight": 200,
+      "id": "OD:oreWhiteGem"
+    },
+    {
+      "target": "red",
+      "weight": 200,
+      "id": "OD:oreRedGem"
+    },
+    {
+      "target": "blue",
+      "weight": 200,
+      "id": "OD:oreBlueGem"
+    },
+    {
+      "target": "white",
+      "weight": 200,
+      "id": "OD:orePalladium"
+    },
+    {
+      "target": "light_gray",
+      "weight": 200,
+      "id": "OD:oreZinc"
+    },
+    {
+      "target": "gray",
+      "weight": 200,
+      "id": "OD:oreMercury"
+    },
+    {
+      "target": "black",
+      "weight": 200,
+      "id": "extraplanets:volcanic_rock"
+    },
+    {
+      "target": "gray",
+      "weight": 200,
+      "id": "OD:oreDesh"
+    },
+    {
+      "target": "green",
+      "weight": 200,
+      "id": "extraplanets:ingot_uranium"
+    },
+    {
+      "target": "light_gray",
+      "weight": 200,
+      "id": "OD:oreCrystal"
+    },
+    {
+      "target": "white",
+      "weight": 200,
+      "id": "extraplanets:ingot_magnesium"
+    },
+    {
+      "target": "gray",
+      "weight": 200,
+      "id": "OD:oreTungsten"
+    },
+    {
+      "target": "black",
+      "weight": 200,
+      "id": "OD:oreDarkIron"
+    },
+    {
+      "target": "brown",
+      "weight": 200,
+      "id": "OD:ingotMeteoricIron"
+    },
+    {
       "target": "green",
       "weight": 4,
       "id": "OD:oreNaquadah"
