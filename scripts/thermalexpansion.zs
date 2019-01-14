@@ -83,4 +83,22 @@ recipes.addShaped(<thermalfoundation:storage:3>, [[<ore:ingotLead>, <ore:ingotLe
 [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>], 
 [<ore:ingotLead>, <ore:ingotLead>, <ore:ingotLead>]]);
 
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftplanets:item_basic_asteroids:6>, <galacticraftplanets:item_basic_asteroids>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftplanets:item_basic_mars:5>, <galacticraftplanets:item_basic_mars:2>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftcore:item_basic_moon:1>, <galacticraftcore:item_basic_moon>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftcore:basic_item:11>, <thermalfoundation:material:32>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftcore:basic_item:10>, <thermalfoundation:material:355>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftcore:basic_item:9>, <thermalfoundation:material:352>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftcore:basic_item:8>, <thermalfoundation:material:324>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftcore:basic_item:7>, <thermalfoundation:material:321>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<galacticraftcore:basic_item:6>, <thermalfoundation:material:320>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:compressed_mercury>, <extraplanets:ingot_mercury>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier4_items:4>, <extraplanets:tier4_items:5>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier5_items:4>, <extraplanets:tier5_items:5>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier6_items:4>, <extraplanets:tier6_items:5>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier7_items:4>, <extraplanets:tier7_items:5>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier8_items:4>, <extraplanets:tier8_items:5>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier9_items:4>, <extraplanets:tier9_items:5>, 40000);
+mods.thermalexpansion.Compactor.addPressRecipe(<extraplanets:tier10_items:4>, <extraplanets:tier10_items:5>, 40000);
+
 print("Initialized 'thermalexpansion.zs'");
