@@ -1,6 +1,6 @@
 recipes.remove(<fluxnetworks:fluxblock>);
 recipes.addShaped(<fluxnetworks:fluxblock>, [[<fluxnetworks:flux:*>, <fluxnetworks:fluxcore:*>, <fluxnetworks:flux:*>], 
-[<fluxnetworks:fluxcore:*>, <extraplanets:ultimate_battery:100>.withTag({}), <fluxnetworks:fluxcore:*>], 
+[<fluxnetworks:fluxcore:*>, <extraplanets:ultimate_battery:100>, <fluxnetworks:fluxcore:*>], 
 [<fluxnetworks:flux:*>, <fluxnetworks:fluxcore:*>, <fluxnetworks:flux:*>]]);
 
 recipes.remove(<fluxnetworks:fluxpoint>);
