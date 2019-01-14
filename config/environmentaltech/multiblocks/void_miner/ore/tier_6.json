@@ -526,6 +526,16 @@
       "id": "OD:ingotMeteoricIron"
     },
     {
+      "target": "black",
+      "weight": 200,
+      "id": "OD:oreCarbon"
+    },
+    {
+      "target": "black",
+      "weight": 200,
+      "id": "OD:oreIlmenite"
+    },
+    {
       "target": "green",
       "weight": 4,
       "id": "OD:oreNaquadah"
